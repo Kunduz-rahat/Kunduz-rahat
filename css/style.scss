@@ -1,38 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
 }
+
 //*******navbar styling**********//
-.max-width{
+.max-width {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 15px;
 }
-.navbar{
-  background: crimson;
+
+.navbar {
+  //background: crimson;
   position: fixed;
   width: 100%;
-  padding: 15px 0;
-  .menu li a{
+  padding: 30px 0;
+
+  &__logo span {
+    color: crimson;
+  }
+
+  .menu li a {
     color: white;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: crimson;
+    }
   }
+
   .menu li {
     list-style: none;
     display: inline-block;
   }
+
   .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  &__logo a{
-font-size: 35px;
+
+  &__logo a {
+    font-size: 35px;
     font-weight: 600;
     color: white;
   }
@@ -40,27 +56,36 @@ font-size: 35px;
 
 // ******* home content ************//
 
-.home{
-  display: flex;
+.home {
+display: flex;
   background: url(../images/desk.jpg) no-repeat center;
   height: 100vh;
   width: 100%;
   color: white;
   min-height: 500px;
   font-family: 'Ubuntu', sans-serif;
+
   .max-width{
-    margin:  auto 0 auto 40px;
+    margin:auto 0 auto 40px;
   }
-  &__text-1{
+
+  &__text-1 {
     font-size: 27px;
   }
-  &__text-2{
+
+  &__text-2 {
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
   }
-  &__text-3{
+
+  &__text-3 {
     font-size: 40px;
     margin: 5px 0;
+
+    span {
+      font-weight: 500;
+      color: crimson;
+    }
   }
 }

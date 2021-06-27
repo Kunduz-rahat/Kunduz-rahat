@@ -13,16 +13,22 @@
 }
 
 .navbar {
-  background: crimson;
   position: fixed;
   width: 100%;
-  padding: 15px 0;
+  padding: 30px 0;
+}
+.navbar__logo span {
+  color: crimson;
 }
 .navbar .menu li a {
   color: white;
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover {
+  color: crimson;
 }
 .navbar .menu li {
   list-style: none;
@@ -62,6 +68,10 @@
 .home__text-3 {
   font-size: 40px;
   margin: 5px 0;
+}
+.home__text-3 span {
+  font-weight: 500;
+  color: crimson;
 }
 
 /*# sourceMappingURL=style.css.map */
