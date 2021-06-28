@@ -1,4 +1,4 @@
-### Hi, my name is Kunduz
+### Hi, I'm Kunduz
 ##### About Me
 
 * 💼 A Beginner Web Developer proficient in HTML and CSS.
