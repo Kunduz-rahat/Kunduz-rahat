@@ -1,7 +1,7 @@
 ### Hi, I'm Kunduz
 ##### About Me
 
-* 💼 A Beginner Web Developer proficient in HTML and CSS.
+* 💼 A  Web React Developer proficient in HTML and CSS.
  
 * 💻  Currently learning Javascript, React, Node.js to build more exciting and wonderful projects.
 
